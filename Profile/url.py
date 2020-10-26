@@ -1,5 +1,5 @@
 from django.urls import path, re_path
-import Profile import views
+from Profile import views
 
 
 urlpatterns = [
