@@ -1,0 +1,7 @@
+from django.urls import path, re_path
+import Profile import views
+
+
+urlpatterns = [
+    re_path(r'^profileModel_url', views.ProfileModelview.as_view())
+]
