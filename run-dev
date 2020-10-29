@@ -1,0 +1,1 @@
+python mange.py runserver --settings=TrayectoriaBack.settings.developmen
