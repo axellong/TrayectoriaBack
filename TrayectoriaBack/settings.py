@@ -43,6 +43,7 @@ INSTALLED_APPS = [
 
     'Dashboard',
     'Profile',
+    'login',
 ]
 
 SITE_ID = 1
@@ -95,7 +96,6 @@ TEMPLATES = [
         },
     },
 ]
-
 WSGI_APPLICATION = 'TrayectoriaBack.wsgi.application'
 
 
@@ -140,6 +140,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
 
 
 # Internationalization
