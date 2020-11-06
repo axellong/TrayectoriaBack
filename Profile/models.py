@@ -18,3 +18,11 @@ class ProfileTwo(models.Model):
 
     def __str__ (self):
         return profileModel
+
+class ProfileWeb(models.Model):
+    nombre = models.CharField(max_length=255, null=False)
+    edad = models.IntegerField(null=False)
+    email = models.CharField(max_length=255, null=False)
+ 
+
+
