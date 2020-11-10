@@ -61,4 +61,5 @@ urlpatterns = [
     re_path(r'^', include(router.urls)),
     re_path(r'^api/v1/login/', include('Login.urls')),
     re_path(r'^api/v1/profile/', include('Profile.url')),
+    re_path(r'^api/v1/register/', include('Register.urls')),
 ]
