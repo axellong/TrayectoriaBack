@@ -40,7 +40,7 @@ INSTALLED_APPS = [
 
     'Dashboard',
     'Profile',
-    'Rregister',
+    'Register',
 ]
 
 SITE_ID = 1
