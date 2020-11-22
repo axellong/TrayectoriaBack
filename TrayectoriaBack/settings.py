@@ -104,7 +104,7 @@ DATABASES = {
         'NAME':'webdb',
         'USER': 'web',
         'PASSWORD': 'Acoco',
-        'HOST': '172.31.60.248',
+        'HOST': '54.90.24.36', #ipPublica
         'PORT': '5432'
     }
 }
