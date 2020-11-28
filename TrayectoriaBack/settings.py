@@ -20,7 +20,7 @@ SECRET_KEY=config("SECRET_KEY")
 
 DEBUG = config('DEBUG',default = False, cast = bool)
 
-ALLOWED_HOSTS = ['back-web-1.herokuapp.com', '54.90.24.36']
+ALLOWED_HOSTS = ['back-web-1.herokuapp.com', '54.90.24.36','web-axel.ddns.net']
 
 
 # Application definition
